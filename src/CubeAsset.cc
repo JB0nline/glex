@@ -7,12 +7,27 @@ CubeAsset::CubeAsset() {
     , -0.5,  0.5, -0.5
     ,  0.5, -0.5, -0.5
     ,  0.5,  0.5, -0.5
+
+	, -0.5, -0.5,  0.5
+	, -0.5,  0.5,  0.5
+	,  0.5,  0.5,  0.5
+	,  0.5, -0.5,  0.5
   };
 
-  element_buffer_length = 6;
+  element_buffer_length = 36;
   GLuint element_buffer []  {
     0, 1, 2
     , 1, 3, 2
+	, 0, 1, 4
+	, 1, 4, 5
+	, 2, 3, 7
+	, 3, 6, 7
+	, 4, 5, 7
+	, 5, 6, 7
+	, 1, 5, 3
+	, 5, 3, 6
+	, 0, 2, 4
+	, 2, 4, 7
   };
 
   // Transfer buffers to the GPU
@@ -23,7 +38,7 @@ CubeAsset::CubeAsset() {
 
   // immediately bind the buffer and transfer the data
   glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer_token);
-  glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 12, vertex_buffer, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(GLfloat) * 36, vertex_buffer, GL_STATIC_DRAW);
 
   glGenBuffers(1, &element_buffer_token);
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer_token);
