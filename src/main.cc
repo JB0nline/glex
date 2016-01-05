@@ -167,6 +167,15 @@ int main(int argc, char ** argv) {
 	case SDLK_w:
 		std::cout<< "w" <<std::endl;
 		break;
+	case SDLK_a:
+		std::cout<< "a" <<std::endl;
+		break;
+	case SDLK_s:
+		std::cout<< "s" <<std::endl;
+		break;
+	case SDLK_d:
+		std::cout<< "d" <<std::endl;
+		break;
 	default:
 
       break;
