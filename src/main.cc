@@ -161,10 +161,16 @@ int main(int argc, char ** argv) {
       break;
     case SDL_USEREVENT:
       Draw(window, game_world);
+      break;
+    case SDL_KEYDOWN:
+	switch (event.key.keysym.sym) {
+	case SDLK_w:
+		std::cout<< "w" <<std::endl;
+		break;
+	default:
 
       break;
-    default:
-      break;
+    }
     }
   }
 }
