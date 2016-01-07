@@ -18,14 +18,19 @@ CubeAsset::CubeAsset() {
   GLuint element_buffer []  {
     0, 1, 2
     , 1, 3, 2
+
 	, 0, 1, 4
 	, 1, 4, 5
+
 	, 2, 3, 7
 	, 3, 6, 7
+
 	, 4, 5, 7
 	, 5, 6, 7
+
 	, 1, 5, 3
 	, 5, 3, 6
+
 	, 0, 2, 4
 	, 2, 4, 7
   };
@@ -68,6 +73,7 @@ void CubeAsset::Draw(GLuint program_token) {
     std::cerr << "Drawing Cube with invalid program" << std::endl;
     return;
   }
+
   GLint validation_ok;
   glValidateProgram(program_token);
   glGetProgramiv(program_token, GL_VALIDATE_STATUS, &validation_ok);
