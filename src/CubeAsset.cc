@@ -49,7 +49,7 @@ CubeAsset::CubeAsset() : model_matrix(glm::mat4(1.0)){
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer_token);
   glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(GLuint) * element_buffer_length, element_buffer, GL_STATIC_DRAW);
 
-  rotateX(60.0f);
+  rotateX(45.0f);
 }
 
 CubeAsset::~CubeAsset() {
