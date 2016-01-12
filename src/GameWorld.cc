@@ -7,10 +7,10 @@ GameWorld::GameWorld (ApplicationMode mode)
   int mapping[4][4][4] = 
     {
       //y=        0         1         2          3
-      /*x=0*/ {{1,0,0,0},{0,0,0,0},{1,0,0,0},{1,0,0,0}},
-      /*x=1*/ {{1,0,0,0},{1,0,0,0},{0,0,0,0},{0,1,0,0}},
-      /*x=2*/ {{1,0,0,0},{0,0,0,0},{0,1,0,0},{0,0,0,0}},
-      /*x=3*/ {{1,1,1,1},{0,1,0,0},{0,1,0,0},{0,0,1,0}}
+      /*x=0*/ {{1,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
+      /*x=1*/ {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
+      /*x=2*/ {{2,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
+      /*x=3*/ {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}}
     };
   // x axis
      for(int i = 0; i<4;i++)
@@ -21,14 +21,18 @@ GameWorld::GameWorld (ApplicationMode mode)
        //z axis
        for(int k = 0;k<4;k++)
 	 {
-	   if(mapping[i][j][k]==1){
-             asset_manager->AddAsset(std::make_shared<CubeAsset>(i,j,k));
-	   }
+	   if(mapping[i][j][k]==1)
+	     {
+	        asset_manager->AddAsset(std::make_shared<CubeAsset>(i,j,k));
+	   }else if(mapping[i][j][k]==2)
+	     {
+	        asset_manager->AddAsset(std::make_shared<PyramidAsset>(i,j,k));
+	     }
          }
        }
      }
   
-  
+ 
  }
 
 

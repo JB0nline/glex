@@ -1,5 +1,5 @@
-#ifndef CUBEASSET_H
-#define CUBEASSET_H
+#ifndef PYRAMIDASSET_H
+#define PYRAMIDASSET_H
 
 #include <vector>
 
@@ -9,10 +9,10 @@
 
 #include "GameAsset.h"
 
-class CubeAsset : public GameAsset {
+class PyramidAsset : public GameAsset {
  public:
-  CubeAsset(float x, float y, float z);
-  ~CubeAsset();
+  PyramidAsset(float x, float y, float z);
+  ~PyramidAsset();
   virtual void Draw(GLuint);
   void rotateX(float);
 
@@ -21,6 +21,7 @@ class CubeAsset : public GameAsset {
   GLuint colour_buffer_length;
   GLuint vertex_buffer_token, element_buffer_token, colour_buffer_token;
   glm::mat4 model_matrix;
+  void checkError(std::string file, int line);
 };
 
-#endif // CUBEASSET_H
+#endif // PYRAMIDASSET_H

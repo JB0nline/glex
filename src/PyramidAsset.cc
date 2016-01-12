@@ -1,61 +1,44 @@
-#include "CubeAsset.h"
+#include "PyramidAsset.h"
 
-CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
+PyramidAsset::PyramidAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
   // model coordinates, origin at centre.
   GLfloat vertex_buffer [] {
-    -0.5f+x, -0.5f+y, -0.5f+z
-    , -0.5f+x,  0.5f+y, -0.5f+z
-    ,  0.5f+x, -0.5f+y, -0.5f+z
-    ,  0.5f+x,  0.5f+y, -0.5f+z
-
-	, -0.5f+x, -0.5f+y,  0.5f+z
-	, -0.5f+x,  0.5f+y,  0.5f+z
-	,  0.5f+x,  0.5f+y,  0.5f+z
-	,  0.5f+x, -0.5f+y,  0.5f+z
+         -0.5f+x, -0.5f+y,  0.5f+z //back left
+      ,  -0.5f+x, -0.5f+y, -0.5f+z // front left
+      ,   0.5f+x, -0.5f+y, -0.5f+z // front right
+      ,   0.5f+x, -0.5f+y,  0.5f+z // back right
+      ,   0.0f+x,  0.5f+y,  0.0f+z //apex
+	  
   };
 
-   GLfloat vertex_buffer_length = sizeof(vertex_buffer);
-   
+  GLfloat vertex_buffer_length = sizeof(vertex_buffer);
+
   GLfloat colour_buffer[]= {
 
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0,
-     0.0,0.0,1.0
+     0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
+    ,0.3,0.4,0.2
     
 
   };
 
-    colour_buffer_length = sizeof(colour_buffer);
-    
+  colour_buffer_length = sizeof(colour_buffer);
+  
   GLuint element_buffer []  {
-    0, 1, 2
-    , 1, 3, 2
-
-	, 0, 1, 4
-	, 1, 4, 5
-
-	, 2, 3, 7
-	, 3, 6, 7
-
-	, 4, 5, 7
-	, 5, 6, 7
-
-	, 1, 5, 3
-	, 5, 3, 6
-
-	, 0, 2, 4
-	, 2, 4, 7
+    0,1,2, //bottom left
+    0,2,3, //bottom right
+    0,1,4, //left wall
+    1,2,4,//front wall
+     2,3,4,//right wall
+     0,3,4 //back wall
   };
-
+  
   element_buffer_length = sizeof(element_buffer);
 
   // Transfer buffers to the GPU
@@ -66,7 +49,7 @@ CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
 
   // immediately bind the buffer and transfer the data
   glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer_token);
-  glBufferData(GL_ARRAY_BUFFER, vertex_buffer_length, vertex_buffer, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, vertex_buffer_length,vertex_buffer, GL_STATIC_DRAW);
 
   glGenBuffers(1, &colour_buffer_token);
   glBindBuffer(GL_ARRAY_BUFFER, colour_buffer_token);
@@ -74,12 +57,12 @@ CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
 
   glGenBuffers(1, &element_buffer_token);
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer_token);
-  glBufferData(GL_ELEMENT_ARRAY_BUFFER, element_buffer_length, element_buffer, GL_STATIC_DRAW);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER,  element_buffer_length, element_buffer, GL_STATIC_DRAW);
 
   rotateX(0.0f);
 }
 
-CubeAsset::~CubeAsset() {
+PyramidAsset::~PyramidAsset() {
 }
 
 #ifdef DEBUG
@@ -89,7 +72,7 @@ CubeAsset::~CubeAsset() {
 #define checkGLError()
 #endif
 
-void checkError(std::string file, int line) {
+void PyramidAsset::checkError(std::string file, int line) {
   GLenum gl_error = glGetError();
   if(GL_NO_ERROR != gl_error) {
     std::cerr << "GL error in " << file << " at line " << line << " error: " << gl_error << std::endl;
@@ -97,9 +80,9 @@ void checkError(std::string file, int line) {
   }
 }
 
-void CubeAsset::Draw(GLuint program_token) {
+void PyramidAsset::Draw(GLuint program_token) {
   if(!glIsProgram(program_token)) {
-    std::cerr << "Drawing Cube with invalid program" << std::endl;
+    std::cerr << "Drawing Pyramid with invalid program" << std::endl;
     return;
   }
 
@@ -144,7 +127,8 @@ void CubeAsset::Draw(GLuint program_token) {
                         0,                             /* stride */
                         (void*)0                       /* array buffer offset */
                         );
-  glEnableVertexAttribArray(1);
+  // glEnableVertexAttribArray(position_attrib);
+   glEnableVertexAttribArray(1);
   checkGLError();
 
   glBindBuffer(GL_ARRAY_BUFFER,colour_buffer_token);
@@ -171,7 +155,8 @@ void CubeAsset::Draw(GLuint program_token) {
   glDisableVertexAttribArray(position_attrib);
 }
 
-void CubeAsset::rotateX(float angle){
-	  glm::vec3 unit_x_axis(1.0,0.0,0.0);
+void PyramidAsset::rotateX(float angle){
+
+  glm::vec3 unit_x_axis(1.0,0.0,0.0);
 	  model_matrix = glm::rotate(this->model_matrix,angle,unit_x_axis);
 }
