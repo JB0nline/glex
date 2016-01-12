@@ -6,7 +6,6 @@ GameWorld::GameWorld (ApplicationMode mode) {
 }
 
 
-
 void GameWorld::Draw() {
 
   asset_manager->Draw();
