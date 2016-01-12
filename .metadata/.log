@@ -1,0 +1,421 @@
+!SESSION 2015-12-08 15:11:19.175 -----------------------------------------------
+eclipse.buildId=4.5.0.v20150826-1000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2015-12-08 15:12:31.276
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'org.eclipse.linuxtools.cdt.libhover.devhelp' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 77 2015-12-08 15:21:58.632
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-12-08 15:21:58.632
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-12-08 15:21:58.632
+!MESSAGE /home/jb1141/glex overlaps the workspace location: /home/jb1141/glex
+
+!ENTRY org.eclipse.core.resources 4 77 2015-12-08 15:22:40.847
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-12-08 15:22:40.847
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-12-08 15:22:40.847
+!MESSAGE /home/jb1141/glex overlaps the workspace location: /home/jb1141/glex
+!SESSION 2015-12-08 15:23:28.407 -----------------------------------------------
+eclipse.buildId=4.5.0.v20150826-1000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2015-12-08 15:23:40.643
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'org.eclipse.linuxtools.cdt.libhover.devhelp' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.core.resources 4 77 2015-12-08 15:25:02.688
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-12-08 15:25:02.688
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-12-08 15:25:02.688
+!MESSAGE /home/jb1141/glex overlaps the workspace location: /home/jb1141/glex
+
+!ENTRY org.eclipse.core.resources 4 77 2015-12-08 15:25:23.492
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-12-08 15:25:23.492
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-12-08 15:25:23.492
+!MESSAGE /home/jb1141/glex overlaps the workspace location: /home/jb1141/glex
+!SESSION 2015-12-10 13:45:37.950 -----------------------------------------------
+eclipse.buildId=4.5.0.v20150811-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:52.424
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/rse.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:52.997
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/eclipse-p2-discovery.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:53.136
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/linuxtools-rpm-editor.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:53.350
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/linuxtools-valgrind.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:53.580
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/swt-chart.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:53.688
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/dtp-modelbase.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:53.895
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/linuxtools-changelog.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:54.135
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/linuxtools-oprofile.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:54.298
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/remote.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:54.430
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/linuxtools-core.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:54.749
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/packagekit.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:54.921
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/jgit.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.124
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-docs.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.299
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/dtp-connectivity.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.544
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-commons.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.639
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-commons/eclipse/plugins/org.apache.james.apache-mime4j-benchmark_0.7.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.844
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-commons/eclipse/plugins/org.apache.james.apache-mime4j-benchmark_0.7.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.858
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/fedorapackager.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.930
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/fedorapackager/eclipse/plugins/org.eclipse.jgit_3.5.0.201409260305-r.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:55.993
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/fedorapackager/eclipse/plugins/org.eclipse.jgit_3.5.0.201409260305-r.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:56.019
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/collabnet-merge.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:56.194
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-tasks-web.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:56.346
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/ptp.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:56.681
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/emf-runtime.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:56.959
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-context-java.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.009
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-context-java/eclipse/plugins/org.apache.james.apache-mime4j-benchmark_0.7.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.081
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-context-java/eclipse/plugins/org.apache.james.apache-mime4j-benchmark_0.7.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.128
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-context-cdt.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.307
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/gef-core.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.516
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/egit-egit.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.724
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mpc.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.841
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-tasks-bugzilla.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:57.952
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/dtp-enablement.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:58.334
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/mylyn-tasks-trac.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:58.439
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/subclipse.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:58.601
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/dtp-sqldevtools.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:58.789
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/share/eclipse/dropins/dtp-doc.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:45:58.924
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/sdk.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:00.796
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/cvs.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:01.006
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/cdt-parsers.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:01.305
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/cdt.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:01.761
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:01.979
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.hamcrest.integration_1.3.0.v20090501071000.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.016
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.objenesis_1.2.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.026
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.hamcrest.library_1.3.0.v20090501071000.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.036
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/net.sf.cglib.core_3.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.059
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.easymock_3.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.108
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.objectweb.asm_3.3.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.203
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.hamcrest.integration_1.3.0.v20090501071000.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.207
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.objenesis_1.2.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.216
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.hamcrest.library_1.3.0.v20090501071000.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.228
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/net.sf.cglib.core_3.1.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.232
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.easymock_3.3.0.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.240
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/pydev-core/eclipse/plugins/org.objectweb.asm_3.3.1.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-12-10 13:46:02.253
+!MESSAGE Unable to acquire PluginConverter service during generation for: /usr/lib64/eclipse/dropins/jdt.
+
+!ENTRY org.eclipse.ui 2 0 2015-12-10 13:46:41.990
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'org.eclipse.linuxtools.cdt.libhover.devhelp' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2015-12-10 13:50:23.202
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2015-12-10 13:50:23.202
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse CVS Client Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse e4 Rich Client Platform Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse Help Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse JDT Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse p2 Discovery Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse p2 Provisioning Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse PDE Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse Platform Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse Plug-in Development Environment" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse Project SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Eclipse RCP Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Equinox p2 Core Function Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.202
+!MESSAGE "Equinox p2 RCP Management Facilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.203
+!MESSAGE "Equinox p2 RCP Management Facilities Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.203
+!MESSAGE "Equinox p2, Discovery UI support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.203
+!MESSAGE "PyDev for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2015-12-10 13:50:23.203
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.203
+!MESSAGE Software being installed: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.203
+!MESSAGE Missing requirement: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000) requires 'org.eclipse.equinox.p2.user.ui.feature.group [2.2.100.v20150826-1000]' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2015-12-10 13:50:23.245
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2015-12-10 13:50:23.245
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse CVS Client Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse e4 Rich Client Platform Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse Help Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.245
+!MESSAGE "Eclipse JDT Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse p2 Discovery Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse p2 Provisioning Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse PDE Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse Platform Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse Plug-in Development Environment" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse Project SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Eclipse RCP Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Equinox p2 Core Function Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Equinox p2 RCP Management Facilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Equinox p2 RCP Management Facilities Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "Equinox p2, Discovery UI support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.246
+!MESSAGE "PyDev for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2015-12-10 13:50:23.246
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.246
+!MESSAGE Software being installed: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.246
+!MESSAGE Missing requirement: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000) requires 'org.eclipse.equinox.p2.user.ui.feature.group [2.2.100.v20150826-1000]' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2015-12-10 13:50:23.459
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2015-12-10 13:50:23.459
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse CVS Client Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse e4 Rich Client Platform Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse Help Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse JDT Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse p2 Discovery Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse p2 Provisioning Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse PDE Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse Platform Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse Plug-in Development Environment" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse Project SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.459
+!MESSAGE "Eclipse RCP Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.460
+!MESSAGE "Equinox p2 Core Function Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.460
+!MESSAGE "Equinox p2 RCP Management Facilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.460
+!MESSAGE "Equinox p2 RCP Management Facilities Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.460
+!MESSAGE "Equinox p2, Discovery UI support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.460
+!MESSAGE "PyDev for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2015-12-10 13:50:23.460
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.460
+!MESSAGE Software being installed: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.460
+!MESSAGE Missing requirement: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000) requires 'org.eclipse.equinox.p2.user.ui.feature.group [2.2.100.v20150826-1000]' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2015-12-10 13:50:23.495
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2015-12-10 13:50:23.495
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse CVS Client" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse CVS Client Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse e4 Rich Client Platform Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse Help Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse JDT Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse p2 Discovery Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse p2 Provisioning Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse PDE Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse Platform Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse Plug-in Development Environment" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse Project SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Eclipse RCP Plug-in Developer Resources" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Equinox p2 Core Function Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Equinox p2 RCP Management Facilities" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Equinox p2 RCP Management Facilities Source" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "Equinox p2, Discovery UI support" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2015-12-10 13:50:23.496
+!MESSAGE "PyDev for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2015-12-10 13:50:23.496
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.496
+!MESSAGE Software being installed: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-12-10 13:50:23.496
+!MESSAGE Missing requirement: Eclipse p2 Provisioning Developer Resources 2.2.100.v20150826-1000 (org.eclipse.equinox.p2.user.ui.source.feature.group 2.2.100.v20150826-1000) requires 'org.eclipse.equinox.p2.user.ui.feature.group [2.2.100.v20150826-1000]' but it could not be found
+
+!ENTRY org.eclipse.core.resources 4 77 2015-12-10 13:51:09.400
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-12-10 13:51:09.400
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-12-10 13:51:09.400
+!MESSAGE /home/jb1141/glex overlaps the workspace location: /home/jb1141/glex

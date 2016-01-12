@@ -12,6 +12,8 @@
 #include "common.h"
 #include "GameWorld.h"
 
+#define __cplusplus 201103L
+
 /*
  * SDL timers run in separate threads.  In the timer thread
  * push an event onto the event queue.  This event signifies
@@ -35,7 +37,7 @@ struct SDLWindowDeleter {
 };
 
 void Draw(const std::shared_ptr<SDL_Window> window, const std::shared_ptr<GameWorld> game_world) {
-  glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
+  glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
   glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
   game_world->Draw();
@@ -159,10 +161,25 @@ int main(int argc, char ** argv) {
       break;
     case SDL_USEREVENT:
       Draw(window, game_world);
+      break;
+    case SDL_KEYDOWN:
+	switch (event.key.keysym.sym) {
+	case SDLK_w:
+		std::cout<< "w" <<std::endl;
+		break;
+	case SDLK_a:
+		std::cout<< "a" <<std::endl;
+		break;
+	case SDLK_s:
+		std::cout<< "s" <<std::endl;
+		break;
+	case SDLK_d:
+		std::cout<< "d" <<std::endl;
+		break;
+	default:
 
       break;
-    default:
-      break;
+    }
     }
   }
 }
