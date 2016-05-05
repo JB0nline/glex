@@ -9,9 +9,11 @@
 #include <iostream>
 
 #include <GL/gl.h>
+#include <glm/ext.hpp>
 
 #include "common.h"
 #include "GameAsset.h"
+#include "Camera.h"
 
 /**
  * GameAssetManager is a container for GameAssets.  It also provides utility
@@ -19,24 +21,38 @@
  * simple GameAsset.
  */
 class GameAssetManager {
- public:
-  explicit GameAssetManager(ApplicationMode); // constructor
-  virtual ~GameAssetManager();
-  GameAssetManager(GameAssetManager const&); // copy constructor
-  GameAssetManager(GameAssetManager const&&); // move constructor
-  void operator=(GameAssetManager const&); // assignment
-  void AddAsset(std::shared_ptr<GameAsset>);
-  void Draw();
+public:
+	explicit GameAssetManager(ApplicationMode); // constructor
+	virtual ~GameAssetManager();
+	GameAssetManager(GameAssetManager const&); // copy constructor
+	GameAssetManager(GameAssetManager const&&); // move constructor
+	void operator=(GameAssetManager const&); // assignment
+	void AddAsset(std::shared_ptr<GameAsset>);
+	void Draw();
+	void UpdateCameraPosition(Input, int mouseX, int mouseY);
 
- private:
-  GLuint CreateGLProgram(std::string &, std::string &);
-  GLuint CreateGLESShader(GLenum, std::string &);
-  // As this is private and we're writing to the GPU, we will use raw pointers.
-  std::pair<GLchar *, GLint>  ReadShader(std::string &);
+private:
+	GLuint CreateGLProgram(std::string &, std::string &);
+	GLuint CreateGLESShader(GLenum, std::string &);
+	// As this is private and we're writing to the GPU, we will use raw pointers.
+	std::pair<GLchar *, GLint> ReadShader(std::string &);
 
-  // The internal scene graph is a simple list.
-  std::vector<std::shared_ptr<GameAsset>> draw_list;
-  GLuint program_token;
+	// The internal scene graph is a simple list.
+	std::vector<std::shared_ptr<GameAsset>> draw_list;
+	GLuint program_token;
+
+	Camera camera;
+
+	GLuint translateMatrix_link;
+	GLuint viewMatrix_link;
+	GLuint projectionMatrix_link;
+
+	glm::mat4 translateMatrix;
+	glm::mat4 viewMatrix;
+	glm::mat4 projectionMatrix;
+
+	GLuint cameraPositionX;
+	GLuint cameraPositionZ;
 };
 
 #endif // GAMEASSETMANAGER_H

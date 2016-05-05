@@ -7,8 +7,8 @@ GameWorld::GameWorld (ApplicationMode mode)
   int mapping[4][4][4] = 
     {
       //y=        0         1         2          3
-      /*x=0*/ {{1,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
-      /*x=1*/ {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
+      /*x=0*/ {{1,0,0,0},{1,0,0,0},{1,0,0,0},{0,0,0,0}},
+      /*x=1*/ {{0,0,0,0},{1,0,0,0},{0,0,0,0},{0,0,0,0}},
       /*x=2*/ {{2,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}},
       /*x=3*/ {{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}}
     };
@@ -34,6 +34,12 @@ GameWorld::GameWorld (ApplicationMode mode)
   
  
  }
+
+void GameWorld::UpdateCameraPosition(Input input_direction, int mouseX, int mouseY){
+
+asset_manager->UpdateCameraPosition(input_direction, mouseX, mouseY);
+
+}
 
 
 void GameWorld::Draw() {
