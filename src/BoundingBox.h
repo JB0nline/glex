@@ -8,22 +8,17 @@
 #ifndef SRC_BOUNDINGBOX_H_
 #define SRC_BOUNDINGBOX_H_
 
-#include <vector>
-
-#include <GL/gl.h>
-#include <glm/glm.hpp>
-#include <glm/ext.hpp>
 
 class BoundingBox {
 public:
-	BoundingBox();
+	BoundingBox(int,int,int,int,int,int);
 	virtual ~BoundingBox();
 
 private:
- GLuint element_buffer_length;
- GLuint colour_buffer_length;
- GLuint vertex_buffer_token, element_buffer_token, colour_buffer_token;
- glm::mat4 model_matrix;
+	int centerPoint[3];
+	int sizeX;
+	int sizeY;
+	int sizeZ;
 };
 
 #endif /* SRC_BOUNDINGBOX_H_ */

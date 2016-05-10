@@ -7,12 +7,16 @@
 
 #include "BoundingBox.h"
 
-BoundingBox::BoundingBox() {
-	// TODO Auto-generated constructor stub
+BoundingBox::BoundingBox(int xposition, int yposition, int zposition, int xsize, int ysize, int zsize) {
+	sizeX = xsize;
+	sizeY = ysize;
+	sizeZ = zsize;
+	centerPoint = {xposition,yposition,zposition};
+
+
 
 }
 
 BoundingBox::~BoundingBox() {
-	// TODO Auto-generated destructor stub
 }
 
