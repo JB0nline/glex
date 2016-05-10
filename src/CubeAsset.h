@@ -15,6 +15,7 @@ class CubeAsset : public GameAsset {
   ~CubeAsset();
   virtual void Draw(GLuint);
   void rotateX(float);
+  glm::mat4 animate;
 
  private:
   GLuint element_buffer_length;

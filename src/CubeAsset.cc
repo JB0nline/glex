@@ -15,7 +15,7 @@ CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
   };
 
    GLfloat vertex_buffer_length = sizeof(vertex_buffer);
-   
+
   GLfloat colour_buffer[]= {
 
      0.0,0.0,1.0,
@@ -30,12 +30,12 @@ CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
      0.0,0.0,1.0,
      0.0,0.0,1.0,
      0.0,0.0,1.0
-    
+
 
   };
 
     colour_buffer_length = sizeof(colour_buffer);
-    
+
   GLuint element_buffer []  {
     0, 1, 2
     , 1, 3, 2
@@ -131,6 +131,10 @@ void CubeAsset::Draw(GLuint program_token) {
   checkGLError();
 
   glUniformMatrix4fv(model_uniform,1,false,glm::value_ptr(model_matrix));
+
+  // Prevents the cubes from rotating
+  GLuint animator = glGetUniformLocation(program_token, "animator");
+  glUniformMatrix4fv(animator,1,GL_FALSE,&animate[0][0]);
 
   // use the previously transferred buffer as the vertex array.  This way
   // we transfer the buffer once -- at construction -- not on every frame.

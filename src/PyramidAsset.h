@@ -15,6 +15,8 @@ class PyramidAsset : public GameAsset {
   ~PyramidAsset();
   virtual void Draw(GLuint);
   void rotateX(float);
+  glm::mat4 animate;
+  GLfloat angle;
 
  private:
   GLuint element_buffer_length;
