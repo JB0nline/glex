@@ -47,3 +47,7 @@ void GameWorld::Draw() {
   asset_manager->Draw();
 
 }
+
+void GameWorld::BindingTest(){
+	std::cout << "Binding was successful" << std::endl;
+}

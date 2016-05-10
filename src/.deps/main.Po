@@ -1088,7 +1088,7 @@ main.o: main.cc /usr/include/stdc-predef.h /usr/include/GL/glew.h \
  /usr/include/glm/detail/intrinsic_matrix.hpp \
  /usr/include/glm/detail/intrinsic_matrix.inl \
  /usr/include/glm/gtx/simd_mat4.inl GameAsset.h Camera.h CubeAsset.h \
- PyramidAsset.h
+ PyramidAsset.h App.h
 
 /usr/include/stdc-predef.h:
 
@@ -3671,3 +3671,5 @@ Camera.h:
 CubeAsset.h:
 
 PyramidAsset.h:
+
+App.h:

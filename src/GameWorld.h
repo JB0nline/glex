@@ -30,6 +30,10 @@ class GameWorld {
    */
   void Draw();
   void UpdateCameraPosition(Input, int mouseX, int mouseY);
+  /**
+   * Calling BindingTest() will print "Binding was successful" to the terminal.
+   */
+  void GameWorld::BindingTest();
  private:
   std::shared_ptr<GameAssetManager> asset_manager;
 };
