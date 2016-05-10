@@ -29,6 +29,7 @@ notifications:
 
 os:
 - linux
+- osx
 
 sudo: true
 
