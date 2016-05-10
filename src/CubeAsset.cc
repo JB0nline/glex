@@ -1,6 +1,7 @@
 #include "CubeAsset.h"
 
 CubeAsset::CubeAsset(float x, float y, float z) : model_matrix(glm::mat4(1.0)){
+
   // model coordinates, origin at centre.
   GLfloat vertex_buffer [] {
     -0.5f+x, -0.5f+y, -0.5f+z
