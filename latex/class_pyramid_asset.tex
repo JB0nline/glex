@@ -1,0 +1,198 @@
+\hypertarget{class_pyramid_asset}{}\section{Pyramid\+Asset Class Reference}
+\label{class_pyramid_asset}\index{Pyramid\+Asset@{Pyramid\+Asset}}
+
+
+{\ttfamily \#include $<$Pyramid\+Asset.\+h$>$}
+
+
+
+Inheritance diagram for Pyramid\+Asset\+:
+% FIG 0
+
+
+Collaboration diagram for Pyramid\+Asset\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pyramid_asset_a5302c1b5d8686715723db6442683e91b}{Pyramid\+Asset} (float x, float y, float z)
+\item 
+\hyperlink{class_pyramid_asset_afb388a196f43a3808b2d4f6fdb89ee84}{$\sim$\+Pyramid\+Asset} ()
+\item 
+virtual void \hyperlink{class_pyramid_asset_aaea45da4956d79ec9ab96e9d0ccef3fe}{Draw} (G\+Luint)
+\item 
+void \hyperlink{class_pyramid_asset_a7183a92811f5ca114b433e21a72c45bf}{rotate\+X} (float)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+glm\+::mat4 \hyperlink{class_pyramid_asset_aec28310c03808b12dab07d48bd971d1b}{animate}
+\item 
+G\+Lfloat \hyperlink{class_pyramid_asset_afc05567a64280648f735bf33da5ca345}{angle}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_pyramid_asset_a34350044042e0098446dc9e0a260cb70}{check\+Error} (std\+::string file, int line)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+G\+Luint \hyperlink{class_pyramid_asset_a5566105859271b493eab3b5f9c02f866}{element\+\_\+buffer\+\_\+length}
+\item 
+G\+Luint \hyperlink{class_pyramid_asset_addd87a747d7bd186bd1b3e3070185c69}{colour\+\_\+buffer\+\_\+length}
+\item 
+G\+Luint \hyperlink{class_pyramid_asset_a54d9cec42bc77d07a66e6c1cd55049b0}{vertex\+\_\+buffer\+\_\+token}
+\item 
+G\+Luint \hyperlink{class_pyramid_asset_a6f7e2f50904d2941e33df8eb7f5f9c2d}{element\+\_\+buffer\+\_\+token}
+\item 
+G\+Luint \hyperlink{class_pyramid_asset_a1c82b429f52d92feefacb5755017aec0}{colour\+\_\+buffer\+\_\+token}
+\item 
+glm\+::mat4 \hyperlink{class_pyramid_asset_abdae2a9161e42fc02297524d98d4b3cc}{model\+\_\+matrix}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Pyramid\+Asset.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_pyramid_asset_a5302c1b5d8686715723db6442683e91b}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!Pyramid\+Asset@{Pyramid\+Asset}}
+\index{Pyramid\+Asset@{Pyramid\+Asset}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{Pyramid\+Asset(float x, float y, float z)}]{\setlength{\rightskip}{0pt plus 5cm}Pyramid\+Asset\+::\+Pyramid\+Asset (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)}\label{class_pyramid_asset_a5302c1b5d8686715723db6442683e91b}
+
+
+Definition at line 3 of file Pyramid\+Asset.\+cc.
+
+
+
+Here is the call graph for this function\+:
+% FIG 2
+
+
+\hypertarget{class_pyramid_asset_afb388a196f43a3808b2d4f6fdb89ee84}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!````~Pyramid\+Asset@{$\sim$\+Pyramid\+Asset}}
+\index{````~Pyramid\+Asset@{$\sim$\+Pyramid\+Asset}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{$\sim$\+Pyramid\+Asset()}]{\setlength{\rightskip}{0pt plus 5cm}Pyramid\+Asset\+::$\sim$\+Pyramid\+Asset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pyramid_asset_afb388a196f43a3808b2d4f6fdb89ee84}
+
+
+Definition at line 65 of file Pyramid\+Asset.\+cc.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_pyramid_asset_a34350044042e0098446dc9e0a260cb70}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!check\+Error@{check\+Error}}
+\index{check\+Error@{check\+Error}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{check\+Error(std\+::string file, int line)}]{\setlength{\rightskip}{0pt plus 5cm}void Pyramid\+Asset\+::check\+Error (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{file, }
+\item[{int}]{line}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_a34350044042e0098446dc9e0a260cb70}
+
+
+Definition at line 75 of file Pyramid\+Asset.\+cc.
+
+\hypertarget{class_pyramid_asset_aaea45da4956d79ec9ab96e9d0ccef3fe}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!Draw@{Draw}}
+\index{Draw@{Draw}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{Draw(\+G\+Luint)}]{\setlength{\rightskip}{0pt plus 5cm}void Pyramid\+Asset\+::\+Draw (
+\begin{DoxyParamCaption}
+\item[{G\+Luint}]{program\+\_\+token}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{class_pyramid_asset_aaea45da4956d79ec9ab96e9d0ccef3fe}
+
+
+Implements \hyperlink{class_game_asset_a961aa51ca0a9961fc584c0b5d5431300}{Game\+Asset}.
+
+
+
+Definition at line 83 of file Pyramid\+Asset.\+cc.
+
+\hypertarget{class_pyramid_asset_a7183a92811f5ca114b433e21a72c45bf}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!rotate\+X@{rotate\+X}}
+\index{rotate\+X@{rotate\+X}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{rotate\+X(float)}]{\setlength{\rightskip}{0pt plus 5cm}void Pyramid\+Asset\+::rotate\+X (
+\begin{DoxyParamCaption}
+\item[{float}]{angle}
+\end{DoxyParamCaption}
+)}\label{class_pyramid_asset_a7183a92811f5ca114b433e21a72c45bf}
+
+
+Definition at line 165 of file Pyramid\+Asset.\+cc.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_pyramid_asset_afc05567a64280648f735bf33da5ca345}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!angle@{angle}}
+\index{angle@{angle}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}G\+Lfloat Pyramid\+Asset\+::angle}\label{class_pyramid_asset_afc05567a64280648f735bf33da5ca345}
+
+
+Definition at line 19 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_aec28310c03808b12dab07d48bd971d1b}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!animate@{animate}}
+\index{animate@{animate}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{animate}]{\setlength{\rightskip}{0pt plus 5cm}glm\+::mat4 Pyramid\+Asset\+::animate}\label{class_pyramid_asset_aec28310c03808b12dab07d48bd971d1b}
+
+
+Definition at line 18 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_addd87a747d7bd186bd1b3e3070185c69}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!colour\+\_\+buffer\+\_\+length@{colour\+\_\+buffer\+\_\+length}}
+\index{colour\+\_\+buffer\+\_\+length@{colour\+\_\+buffer\+\_\+length}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{colour\+\_\+buffer\+\_\+length}]{\setlength{\rightskip}{0pt plus 5cm}G\+Luint Pyramid\+Asset\+::colour\+\_\+buffer\+\_\+length\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_addd87a747d7bd186bd1b3e3070185c69}
+
+
+Definition at line 23 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_a1c82b429f52d92feefacb5755017aec0}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!colour\+\_\+buffer\+\_\+token@{colour\+\_\+buffer\+\_\+token}}
+\index{colour\+\_\+buffer\+\_\+token@{colour\+\_\+buffer\+\_\+token}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{colour\+\_\+buffer\+\_\+token}]{\setlength{\rightskip}{0pt plus 5cm}G\+Luint Pyramid\+Asset\+::colour\+\_\+buffer\+\_\+token\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_a1c82b429f52d92feefacb5755017aec0}
+
+
+Definition at line 24 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_a5566105859271b493eab3b5f9c02f866}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!element\+\_\+buffer\+\_\+length@{element\+\_\+buffer\+\_\+length}}
+\index{element\+\_\+buffer\+\_\+length@{element\+\_\+buffer\+\_\+length}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{element\+\_\+buffer\+\_\+length}]{\setlength{\rightskip}{0pt plus 5cm}G\+Luint Pyramid\+Asset\+::element\+\_\+buffer\+\_\+length\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_a5566105859271b493eab3b5f9c02f866}
+
+
+Definition at line 22 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_a6f7e2f50904d2941e33df8eb7f5f9c2d}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!element\+\_\+buffer\+\_\+token@{element\+\_\+buffer\+\_\+token}}
+\index{element\+\_\+buffer\+\_\+token@{element\+\_\+buffer\+\_\+token}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{element\+\_\+buffer\+\_\+token}]{\setlength{\rightskip}{0pt plus 5cm}G\+Luint Pyramid\+Asset\+::element\+\_\+buffer\+\_\+token\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_a6f7e2f50904d2941e33df8eb7f5f9c2d}
+
+
+Definition at line 24 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_abdae2a9161e42fc02297524d98d4b3cc}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!model\+\_\+matrix@{model\+\_\+matrix}}
+\index{model\+\_\+matrix@{model\+\_\+matrix}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{model\+\_\+matrix}]{\setlength{\rightskip}{0pt plus 5cm}glm\+::mat4 Pyramid\+Asset\+::model\+\_\+matrix\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_abdae2a9161e42fc02297524d98d4b3cc}
+
+
+Definition at line 25 of file Pyramid\+Asset.\+h.
+
+\hypertarget{class_pyramid_asset_a54d9cec42bc77d07a66e6c1cd55049b0}{}\index{Pyramid\+Asset@{Pyramid\+Asset}!vertex\+\_\+buffer\+\_\+token@{vertex\+\_\+buffer\+\_\+token}}
+\index{vertex\+\_\+buffer\+\_\+token@{vertex\+\_\+buffer\+\_\+token}!Pyramid\+Asset@{Pyramid\+Asset}}
+\subsubsection[{vertex\+\_\+buffer\+\_\+token}]{\setlength{\rightskip}{0pt plus 5cm}G\+Luint Pyramid\+Asset\+::vertex\+\_\+buffer\+\_\+token\hspace{0.3cm}{\ttfamily [private]}}\label{class_pyramid_asset_a54d9cec42bc77d07a66e6c1cd55049b0}
+
+
+Definition at line 24 of file Pyramid\+Asset.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{_pyramid_asset_8h}{Pyramid\+Asset.\+h}\item 
+src/\hyperlink{_pyramid_asset_8cc}{Pyramid\+Asset.\+cc}\end{DoxyCompactItemize}
